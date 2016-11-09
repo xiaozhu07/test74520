@@ -4,5 +4,6 @@
  */
 
 exports.index = function(req, res){
-  res.render('index', { title: 'Express' });
+  var test={id:1}
+  res.json(test);
 };
